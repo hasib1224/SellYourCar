@@ -12,6 +12,7 @@ export class User{
 
     @Column()
     password:string;
+    userId: any;
 
     @AfterInsert()
     insertLog(){

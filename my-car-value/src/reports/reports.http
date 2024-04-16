@@ -7,3 +7,9 @@ content-type: application/json
     "email":"hasib@gmail.com",  
     "password": "hj123456" 
 }
+
+###
+GET http://localhost:3000/auth/colors/red
+
+###
+GET http://localhost:3000/auth/colors
